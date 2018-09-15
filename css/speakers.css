@@ -1,69 +1,47 @@
-.speakers-title{
-	text-transform: uppercase;
-	font-size: 22px;
-	padding: 1em 0 0 0; 
+.speakers-section {
+    background-color: #ef7247;
+    padding: 20px;
 }
 
-.speakers-title, .speakers-abstract{
-	color: #FFF;
-	text-align: center;
-	height: 2em 
+.speakers-title,
+.speakers-subtitle {
+    color: #fff;
+    height: 2em;
 }
 
-.speakers-presentation{
-	background-color: #f17d50;
+.speakers-title {
+    text-transform: uppercase;
+    font-size: 40px;
 }
 
-.speakers{
-	box-sizing: border-box;
-	height: 10em;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.speakers-title {
+    font-size: 30px;
 }
 
-.speaker-panel img{
-	padding-bottom: 20px;
+.speaker-panel {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fff;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
 }
 
-.speaker-panel p{
-	height: 3em;
-	font-size: 14px;
+.speaker-image {
+    border-radius: 50%;
+    width: 250px;
 }
 
-.speaker-panel{
-	background-color: #fff;
-	border-radius: 8px;
-	margin: 10px;
-	width: 250px;
-}
-	
-.ElonMusk{
-	grid-area: ElonMusk;
+.ocupation {
+    font-weight: bold;
 }
 
-
-
-.TomCavalcanti{
-	grid-area: TomCavalcanti;
-	background-color: #fff;
+.speaker-panel figcaption {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.EltonJohn{
-	grid-area: EltonJohn;
-	background-color: #fff;
-}
-
-.FlavioAlmeida{
-	grid-area: FlavioAlmeida;
-	background-color: #fff;
-}
-
-.speaker-image{
-	width:250px;
-	height: 250px;
-}
-
-.speaker-panel p:nth-child(2) {
-	font-weight: bold;
+.speaker-speach {
+    margin-top: 20px;
 }

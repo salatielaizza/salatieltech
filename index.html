@@ -10,71 +10,126 @@
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/about.css">
 	<link rel="stylesheet" href="css/speakers.css">
+	<link rel="stylesheet" href="css/form.css">
 </head>
 <body>
-		<header class="header">
+		<header class="header" id="panel-about">
 			<nav class="main-menu">
 				<ul class="itens-menu">
 					<li>
-						<a href="#">About</a>
+						<a href="#panel-about" id="about">About</a>
 					</li>
 					<li>
-						<a href="#">Speakers</a>
+						<a href="#panel-speakers">Speakers</a>
 					</li>
 				</ul>
 			</nav>
 
 			<div class="jumbotron">
 				<section>
-					<h1 class="tittle">WEB SUBMMIT CONF</h1>
-					<h2 class="subtittle">22 november | Lisbon </h2>
+					<h1 class="tittle" >WEB SUBMMIT CONF</h1>
+					<h2 class="subtittle" id="subscribe">22 november | Lisbon </h2>
 				</section>
 				<section>
-					<h3><a class="botao-inscrever" href="#">Subscribe</a></h3>
+					<h3><a class="buttom" href="#panel-data">Subscribe</a></h3>
 				</section>
 			</div>
 		</header>
 		
-	<div class="contain">
-		<section class="panel">
-			<h2 class="title-panel">Many themes: from frontend to banckend</h2>
+		<section>
+		<div class="contain">
+		<h2 class="title-panel">Many themes: from frontend to banckend</h2>
 			<h3 class="date-panel">22th November 2018 - in Lisbon</h3>
 			<div class="text-panel">
 				<p>With Web Submmit Conf we speak about more modern and inovator tecnologies about Technology Information.</p>
-				<p>É uma excelenteoportunidade para se atualizare fazer networking.</p>
+				<p>É uma excelente oportunidade para se atualizare fazer networking.</p>
 				<p>Os principais temas serão: Android, iOS,Web mobile, desenvolvimento híbrido, UX, Artificial Intelligence.</p>
 			</div>
 		</section>
 
-		<section class="speakers-presentation">
-			<h2 class="speakers-title">Speakers</h2>	
-			<p class="speakers-abstract">Learn with the best speakers the market</p>
-			<div class="speakers">
-				<div class="FlavioAlmeida speaker-panel">
-					<img src="../img/destaque.jpeg" alt="Flavio Almeida class="speaker-image" ">
-					<p>Developer and teacher of Havard</p>
-					<p>Abstract about the pesron. It will be describe after</p>
-				</div>
+		<section class="speakers-section">
+			<h2 id="panel-speakers" class="speakers-title">Speakers</h2>	
+			<p class="speakers-subtitle">Learn with the best speakers the market</p>
+			<ul class="speakers">
+				
+				<li class="FlavioAlmeida speaker-panel">
+					<img src="img/flavio-almeida.jpeg" alt="Flavio Almeida" class="speaker-image">
+					<figcaption>Flavio Almeida</figcaption>
+					<p class="ocupation" >Developer and teacher of Havard</p>
+					<div class="speaker-speach">
+						<p>Abstract about the pesron. It will be describe afterAbstract about the pesron. It will be describe afterAbstract about the pesron. It will be describe afterAbstract about the pesron. It will be describe after</p>
+						<p>Abstract about the pesron. It will be describe after</p>
+					</div>
+				</li>
+				
+				<li  class="TomCavalcanti speaker-panel">
+					<img src="img/tom-cavalcante-4fc1018de1003.jpg" alt="TomCavalcanti" class="speaker-image">
+					<figcaption>Tom Cavalcanti</figcaption>
+					<p class="ocupation">Developer and teacher of Havard</p>
+					<div class="speaker-speach">
+						<p>Abstract about the pesron. It will be describle after</p>
+					</div>
+				</li>
+				
+				<li class="EltonJohn speaker-panel">
+					<img src="img/elton-john.jpg" alt="EltonJohn" class="speaker-image">
+					<figcaption>Elton John</figcaption>
+					<p class="ocupation">Developer and teacher of Havard</p>
+					<div class="speaker-speach">
+						<p>Abstract about the pesron. It will be describe after</p>
+					</div>
+				</li>
+				
+				<li class="ElonMusk speaker-panel">
+					<img src="img/elonmusk.jpg" alt="ElonMusk" class="speaker-image">
+					<figcaption>Elon Musk</figcaption>
+					<p class="ocupation">Developer and teacher of Havard</p>
+					<div class="speaker-speach">
+						<p>Abstract about the pesron. It will be describe after</p>
+					</div>
+				</li>
 
-				<div class="TomCavalcanti speaker-panel">
-					<img src="../img/TomCavalcanti.jpg" alt="TomCavalcanti" class="speaker-image">
-					<p>Developer and teacher of Havard</p>
-					<p>Abstract about the pesron. It will be describle after</p>
-				</div>
+				<li class="ElonMusk2 speaker-panel">
+					<img src="img/elonmusk.jpg" alt="ElonMusk" class="speaker-image">
+					<figcaption>Elon Musk</figcaption>
+					<p class="ocupation">Developer and teacher of Havard</p>
+					<div class="speaker-speach">
+						<p>Abstract about the pesron. It will be describe after</p>
+					</div>
+				</li>
 
-				<div class="EltonJohn speaker-panel">
-					<img src="../img/EltonJohn.jpg" alt="EltonJohn" class="speaker-image">
-					<p>Developer and teacher of Havard</p>
-					<p>Abstract about the pesron. It will be describe after</p>
-				</div>
-
-				<div class="ElonMusk speaker-panel">
-					<img src="../img/elonmusk.png" alt="ElonMusk" class="speaker-image">
-					<p>Developer and teacher of Havard</p>
-					<p>Abstract about the pesron. It will be describe after</p>
-				</div>
-			</div>
+				<li class="ElonMusk3 speaker-panel">
+					<img src="img/elonmusk.jpg" alt="ElonMusk" class="speaker-image">
+					<figcaption>Elon Musk</figcaption>
+					<p class="ocupation">Developer and teacher of Havard</p>
+					<div class="speaker-speach">
+						<p>Abstract about the pesron. It will be describe after</p>
+						<p>Abstract about the pesron. It will be describe after</p>
+						<p>Abstract about the pesron. It will be describe after</p>
+						<p>Abstract about the pesron. It will be describe after</p>
+					</div>
+				</li>
+			</ul>
 		</section>
 	</div>
+
+	<div class="contain">
+		<section class="data" id="panel-data">
+			<h1 class="data-title">Your requeriments</h1>
+			<form action="set" class="data-labels">
+				<div class="form-example">
+					<label class="data-label" for="name">Name</label>
+					<input class="data-input" type="text" name="name" id="name">
+				</div>
+				<div class="form-example">
+					<label class="data-label" for="email">Email</label>
+					<input class="data-input" type="text" name="email" id="email">
+				</div>
+				<button class="buttom">Subscribe</button>
+			</form>
+		</section>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>

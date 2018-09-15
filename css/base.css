@@ -1,4 +1,17 @@
-article .panel{
+.panel {
     width: 96%;
     margin: 0 auto;
+}
+
+.buttom {
+    background-color: rgb(72, 163, 166);
+    border-radius: 5px;
+    padding: 25px 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 2em;
 }
